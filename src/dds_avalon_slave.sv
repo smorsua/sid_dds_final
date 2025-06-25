@@ -24,6 +24,7 @@ module dds_avalon_slave(
     logic [31:0] rom_incremento_grueso [16];
     logic enable;
     logic tipo_ajuste;
+    logic start;
 
     dds_avalon_slave_mm_interface avalon_if (
         .clock(clock),
@@ -38,7 +39,8 @@ module dds_avalon_slave(
         // Salidas hacia el DDS
         .o_rom_incremento_grueso(rom_incremento_grueso),
         .o_enable(enable),
-        .o_tipo_ajuste(tipo_ajuste)
+        .o_tipo_ajuste(tipo_ajuste),
+        .o_start(start)
     );
     
     logic [13:0] DAC_Sin, DAC_Cos;
@@ -51,6 +53,7 @@ module dds_avalon_slave(
         .i_rst_n(reset),
         .i_enable(enable),
         .i_tipo_ajuste(tipo_ajuste),
+        .i_start(start),
         .i_aumentar(KEY0),
         .i_disminuir(KEY1),
         .i_rom_incremento_grueso(coarse_step_rom),

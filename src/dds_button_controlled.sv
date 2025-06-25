@@ -5,6 +5,7 @@ module dds_button_controlled #(
 	input i_clk, // 125MHz
 	input i_rst_n,
     input i_enable,
+    input i_start,
 	input i_aumentar,
 	input i_disminuir,
 	input i_tipo_ajuste, // 0: ajuste grueso, 1: ajuste fino
@@ -220,7 +221,7 @@ module dds_button_controlled #(
 
     dds_test_1 #(.M(32), .L(15), .W(14)) DDS(
         .id_p_ac(o_incremento),
-        .ic_rst_ac(!i_rst_n),
+        .ic_rst_ac(i_start | !i_rst_n),
         .ic_en_ac(i_enable),
         .ic_val_data(1'b1),
         .clk(i_clk),

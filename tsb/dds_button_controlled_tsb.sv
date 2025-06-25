@@ -9,6 +9,7 @@ logic clk;
 logic rst_n;
 logic aumentar;
 logic disminuir;
+logic start;
 logic tipo_ajuste;
 logic [2:0] leds_fino;
 logic [2:0] leds_grueso;
@@ -40,6 +41,7 @@ dds_button_controlled #(.INC_WIDTH(32), .OUTPUT_WIDTH(14)) dds_btns (
 	.i_clk(clk), // 125MHz
 	.i_rst_n(rst_n),
     .i_enable(1'b1),
+    .i_start(start),
 	.i_aumentar(aumentar),
 	.i_disminuir(disminuir),
 	.i_tipo_ajuste(tipo_ajuste),
@@ -80,6 +82,7 @@ initial	begin
     error_cnt = 0;
     clk = 1'b1;
     rst_n = 1'b0;
+    start = 0;
     load_data = 1'b0;
     #(10*PER);
     load_data = 1'b1;
@@ -114,6 +117,14 @@ always@(posedge clk)
         #(1000*PER);
         aumentar = 1'b1;
         disminuir = 1'b1;
+        #(1000*PER);
+        start = 1'b1;
+        #(PER);
+        start = 1'b0;
+         #(1000*PER);
+        start = 1'b1;
+        #(PER);
+        start = 1'b0;
         #(1000*PER);
         aumentar = 1'b0;
         disminuir = 1'b1;

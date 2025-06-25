@@ -74,7 +74,7 @@ assign b1_prep_s = b0_ac_r[M-1:M-L];
 assign b1_prepm2_r = b1_prep_s[L-3:0];
 assign b1_log_r = b1_prep_s[L-1:L-2];
 //COS
-assign b1_prep_s_cos =  b0_ac_r[M-1:M-L] - (1 << (L - 2));     
+assign b1_prep_s_cos =  b0_ac_r[M-1:M-L] + (1 << (L - 2));     
 assign b1_log_cos_r = b1_prep_s_cos[L-1:L-2];
 assign b1_prepm2_cos_r = b1_prep_s_cos[L-3:0]; /////aña
 
@@ -135,9 +135,9 @@ always_ff @(posedge clk) begin
     //POST PROC
 //SIN
     if(b3_log_r == 2'b00 || b3_log_r == 2'b01)begin
-      b3_posp_r <= b2_rom_r;end
+      b3_posp_r <= b2_sin_r;end
     else if(b3_log_r == 2'b10 || b3_log_r == 2'b11)begin
-      b3_posp_r <= -b2_rom_r;end
+      b3_posp_r <= -b2_sin_r;end
 
 //COS
     if(b3_log_cos_r == 2'b00 || b3_log_cos_r == 2'b01)begin
