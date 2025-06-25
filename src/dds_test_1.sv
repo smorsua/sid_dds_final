@@ -135,15 +135,15 @@ always_ff @(posedge clk) begin
     //POST PROC
 //SIN
     if(b3_log_r == 2'b00 || b3_log_r == 2'b01)begin
-      b3_posp_r <= b2_sin_r;end
+      b3_posp_r <= b2_rom_r;end
     else if(b3_log_r == 2'b10 || b3_log_r == 2'b11)begin
-      b3_posp_r <= -b2_sin_r;end
+      b3_posp_r <= -b2_rom_r;end
 
 //COS
     if(b3_log_cos_r == 2'b00 || b3_log_cos_r == 2'b01)begin
-      b3_cos_r <= b2_cos_r;end
+      b3_cos_r <= b1_cos_r;end
     else if(b3_log_cos_r == 2'b10 || b3_log_cos_r == 2'b11)begin
-      b3_cos_r <= -b2_cos_r;end
+      b3_cos_r <= -b1_cos_r;end
 
 // Paso por cero: comparar signo actual con signo anterior
 // Si los signos son diferentes y ambos valores no son cero

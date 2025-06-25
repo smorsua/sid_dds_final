@@ -1,0 +1,19 @@
+
+State Machine - |top_sistema|dds_button_controlled:U2|state_grueso
+Name state_grueso.REPOSO_G state_grueso.BAJAR_G state_grueso.ESPERA_BAJAR_G state_grueso.SUBIR_G state_grueso.ESPERA_SUBIR_G state_grueso.IDLE_G 
+state_grueso.IDLE_G 0 0 0 0 0 0 
+state_grueso.ESPERA_SUBIR_G 0 0 0 0 1 1 
+state_grueso.SUBIR_G 0 0 0 1 0 1 
+state_grueso.ESPERA_BAJAR_G 0 0 1 0 0 1 
+state_grueso.BAJAR_G 0 1 0 0 0 1 
+state_grueso.REPOSO_G 1 0 0 0 0 1 
+
+State Machine - |top_sistema|dds_button_controlled:U2|state_fino
+Name state_fino.CARGAR state_fino.REPOSO state_fino.BAJAR state_fino.ESPERA_BAJAR state_fino.SUBIR state_fino.ESPERA_SUBIR state_fino.IDLE 
+state_fino.IDLE 0 0 0 0 0 0 0 
+state_fino.ESPERA_SUBIR 0 0 0 0 0 1 1 
+state_fino.SUBIR 0 0 0 0 1 0 1 
+state_fino.ESPERA_BAJAR 0 0 0 1 0 0 1 
+state_fino.BAJAR 0 0 1 0 0 0 1 
+state_fino.REPOSO 0 1 0 0 0 0 1 
+state_fino.CARGAR 1 0 0 0 0 0 1 

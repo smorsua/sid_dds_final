@@ -192,3 +192,201 @@ run -all
 # ** Note: $stop    : C:/Users/rrodort/Documents/sid_dds_final/tsb/dds_button_controlled_tsb.sv(175)
 #    Time: 242640 ps  Iteration: 0  Instance: /dds_button_controlled_tsb
 # Break in Module dds_button_controlled_tsb at C:/Users/rrodort/Documents/sid_dds_final/tsb/dds_button_controlled_tsb.sv line 175
+add wave -position end  sim:/dds_button_controlled_tsb/dds_btns/DDS/b0_ac_r
+add wave -position end  sim:/dds_button_controlled_tsb/dds_btns/DDS/b1_prep_s
+add wave -position end  sim:/dds_button_controlled_tsb/dds_btns/DDS/b1_log_r
+add wave -position end  sim:/dds_button_controlled_tsb/dds_btns/DDS/b1_prepm2_r
+add wave -position end  sim:/dds_button_controlled_tsb/dds_btns/DDS/b1_prepout_r
+restart
+run -all
+########################################### 
+# START TEST #           1
+########################################### 
+#  Number of input samples           0
+########################################### 
+# TEST #           1
+########################################### 
+# Number of input samples #           0
+########################################### 
+########################################### 
+# Number of checked samples           0
+# Number of errors           0
+########################################### 
+# ** Note: $stop    : C:/Users/rrodort/Documents/sid_dds_final/tsb/dds_button_controlled_tsb.sv(175)
+#    Time: 242640 ps  Iteration: 0  Instance: /dds_button_controlled_tsb
+# Break in Module dds_button_controlled_tsb at C:/Users/rrodort/Documents/sid_dds_final/tsb/dds_button_controlled_tsb.sv line 175
+add wave -position end  sim:/dds_button_controlled_tsb/start
+add wave -position end  sim:/dds_button_controlled_tsb/DAC_Sin
+add wave -position end  sim:/dds_button_controlled_tsb/dds_btns/DDS/b2_rom_r
+restart
+run -all
+########################################### 
+# START TEST #           1
+########################################### 
+#  Number of input samples           0
+########################################### 
+# TEST #           1
+########################################### 
+# Number of input samples #           0
+########################################### 
+########################################### 
+# Number of checked samples           0
+# Number of errors           0
+########################################### 
+# ** Note: $stop    : C:/Users/rrodort/Documents/sid_dds_final/tsb/dds_button_controlled_tsb.sv(175)
+#    Time: 242640 ps  Iteration: 0  Instance: /dds_button_controlled_tsb
+# Break in Module dds_button_controlled_tsb at C:/Users/rrodort/Documents/sid_dds_final/tsb/dds_button_controlled_tsb.sv line 175
+add wave -position end  sim:/dds_button_controlled_tsb/dds_btns/DDS/b3_posp_r
+add wave -position end  sim:/dds_button_controlled_tsb/dds_btns/DDS/b3_log_r
+restart
+run -all
+########################################### 
+# START TEST #           1
+########################################### 
+#  Number of input samples           0
+########################################### 
+# TEST #           1
+########################################### 
+# Number of input samples #           0
+########################################### 
+########################################### 
+# Number of checked samples           0
+# Number of errors           0
+########################################### 
+# ** Note: $stop    : C:/Users/rrodort/Documents/sid_dds_final/tsb/dds_button_controlled_tsb.sv(175)
+#    Time: 242640 ps  Iteration: 0  Instance: /dds_button_controlled_tsb
+# Break in Module dds_button_controlled_tsb at C:/Users/rrodort/Documents/sid_dds_final/tsb/dds_button_controlled_tsb.sv line 175
+add wave -position end  sim:/dds_button_controlled_tsb/dds_btns/DDS/b2_sin_r
+add wave -position 0  sim:/dds_button_controlled_tsb/dds_btns/DDS/clk
+add wave -position end  sim:/dds_button_controlled_tsb/dds_btns/DDS/b2_log_r
+add wave -position end  sim:/dds_button_controlled_tsb/dds_btns/DDS/b1_log_r
+restart
+run -all
+########################################### 
+# START TEST #           1
+########################################### 
+#  Number of input samples           0
+########################################### 
+# TEST #           1
+########################################### 
+# Number of input samples #           0
+########################################### 
+########################################### 
+# Number of checked samples           0
+# Number of errors           0
+########################################### 
+# ** Note: $stop    : C:/Users/rrodort/Documents/sid_dds_final/tsb/dds_button_controlled_tsb.sv(175)
+#    Time: 242640 ps  Iteration: 0  Instance: /dds_button_controlled_tsb
+# Break in Module dds_button_controlled_tsb at C:/Users/rrodort/Documents/sid_dds_final/tsb/dds_button_controlled_tsb.sv line 175
+add wave -position end  sim:/dds_button_controlled_tsb/dds_btns/DDS/b1_prepout_r
+# Compile of dds_button_controlled.sv was successful.
+# Compile of dds_test_1.sv was successful.
+# Compile of dds_button_controlled_tsb.sv was successful.
+# Compile of dds_test_tsb_pkg.sv was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# Loading work.dds_test_tsb_pkg
+# Loading work.dds_button_controlled_tsb_sv_unit
+# Loading work.dds_button_controlled_tsb
+# Loading work.dds_button_controlled
+# Loading work.dds_test_1
+# Loading work.dds_test_rom
+run -all
+########################################### 
+# START TEST #           1
+########################################### 
+#  Number of input samples           0
+########################################### 
+# TEST #           1
+########################################### 
+# Number of input samples #           0
+########################################### 
+########################################### 
+# Number of checked samples           0
+# Number of errors           0
+########################################### 
+# ** Note: $stop    : C:/Users/rrodort/Documents/sid_dds_final/tsb/dds_button_controlled_tsb.sv(175)
+#    Time: 242640 ps  Iteration: 0  Instance: /dds_button_controlled_tsb
+# Break in Module dds_button_controlled_tsb at C:/Users/rrodort/Documents/sid_dds_final/tsb/dds_button_controlled_tsb.sv line 175
+add wave -position end  sim:/dds_button_controlled_tsb/dds_btns/DDS/od_cos_wave
+add wave -position end  sim:/dds_button_controlled_tsb/dds_btns/DDS/od_sin_wave
+restart
+run -all
+########################################### 
+# START TEST #           1
+########################################### 
+#  Number of input samples           0
+########################################### 
+# TEST #           1
+########################################### 
+# Number of input samples #           0
+########################################### 
+########################################### 
+# Number of checked samples           0
+# Number of errors           0
+########################################### 
+# ** Note: $stop    : C:/Users/rrodort/Documents/sid_dds_final/tsb/dds_button_controlled_tsb.sv(175)
+#    Time: 242640 ps  Iteration: 0  Instance: /dds_button_controlled_tsb
+# Break in Module dds_button_controlled_tsb at C:/Users/rrodort/Documents/sid_dds_final/tsb/dds_button_controlled_tsb.sv line 175
+# Compile of dds_button_controlled.sv was successful.
+# Compile of dds_test_1.sv was successful.
+# Compile of dds_button_controlled_tsb.sv was successful.
+# Compile of dds_test_tsb_pkg.sv was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# Loading work.dds_test_tsb_pkg
+# Loading work.dds_button_controlled_tsb_sv_unit
+# Loading work.dds_button_controlled_tsb
+# Loading work.dds_button_controlled
+# Loading work.dds_test_1
+# Loading work.dds_test_rom
+run -all
+########################################### 
+# START TEST #           1
+########################################### 
+#  Number of input samples           0
+########################################### 
+# TEST #           1
+########################################### 
+# Number of input samples #           0
+########################################### 
+########################################### 
+# Number of checked samples           0
+# Number of errors           0
+########################################### 
+# ** Note: $stop    : C:/Users/rrodort/Documents/sid_dds_final/tsb/dds_button_controlled_tsb.sv(175)
+#    Time: 242640 ps  Iteration: 0  Instance: /dds_button_controlled_tsb
+# Break in Module dds_button_controlled_tsb at C:/Users/rrodort/Documents/sid_dds_final/tsb/dds_button_controlled_tsb.sv line 175
+add wave -position end  sim:/dds_button_controlled_tsb/DAC_Sin
+add wave -position end  sim:/dds_button_controlled_tsb/DAC_Cos
+# Compile of dds_button_controlled.sv was successful.
+# Compile of dds_test_1.sv was successful.
+# Compile of dds_button_controlled_tsb.sv was successful.
+# Compile of dds_test_tsb_pkg.sv was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# Loading work.dds_test_tsb_pkg
+# Loading work.dds_button_controlled_tsb_sv_unit
+# Loading work.dds_button_controlled_tsb
+# Loading work.dds_button_controlled
+# Loading work.dds_test_1
+# Loading work.dds_test_rom
+run -all
+########################################### 
+# START TEST #           1
+########################################### 
+#  Number of input samples           0
+########################################### 
+# TEST #           1
+########################################### 
+# Number of input samples #           0
+########################################### 
+########################################### 
+# Number of checked samples           0
+# Number of errors           0
+########################################### 
+# ** Note: $stop    : C:/Users/rrodort/Documents/sid_dds_final/tsb/dds_button_controlled_tsb.sv(175)
+#    Time: 242640 ps  Iteration: 0  Instance: /dds_button_controlled_tsb
+# Break in Module dds_button_controlled_tsb at C:/Users/rrodort/Documents/sid_dds_final/tsb/dds_button_controlled_tsb.sv line 175
+# End time: 19:33:46 on Jun 25,2025, Elapsed time: 0:59:00
+# Errors: 0, Warnings: 2
