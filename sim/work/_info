@@ -1,0 +1,154 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/17.1
+vdds_button_controlled
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1750863223
+!i10b 1
+!s100 X5]FM:e?E23^?df964VZl1
+I:50GH=8MLWB7I?;1^6b7H1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 dds_button_controlled_sv_unit
+S1
+Z3 dW:/MASTER_1/SID/ProyectoFinal/sim
+w1750862270
+8W:/MASTER_1/SID/ProyectoFinal/src/dds_button_controlled.sv
+FW:/MASTER_1/SID/ProyectoFinal/src/dds_button_controlled.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1750863223.000000
+!s107 W:/MASTER_1/SID/ProyectoFinal/src/dds_button_controlled.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|W:/MASTER_1/SID/ProyectoFinal/src/dds_button_controlled.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+vdds_button_controlled_tsb
+R0
+Z8 DXx4 work 16 dds_test_tsb_pkg 0 22 M2dBL8B3[KBj7kGS^KNPa2
+DXx4 work 33 dds_button_controlled_tsb_sv_unit 0 22 cO0_10l@dfL1GCb]`mZjC0
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 0TO<:7B:f@14KdSARhG7;0
+IU`^iIT^3fa0czZLRO3gKW3
+!s105 dds_button_controlled_tsb_sv_unit
+S1
+R3
+Z9 w1750863147
+Z10 8W:/MASTER_1/SID/ProyectoFinal/tsb/dds_button_controlled_tsb.sv
+Z11 FW:/MASTER_1/SID/ProyectoFinal/tsb/dds_button_controlled_tsb.sv
+L0 4
+R4
+R5
+Z12 !s107 W:/MASTER_1/SID/ProyectoFinal/tsb/dds_button_controlled_tsb.sv|
+Z13 !s90 -reportprogress|300|-work|work|-sv|-stats=none|W:/MASTER_1/SID/ProyectoFinal/tsb/dds_button_controlled_tsb.sv|
+!i113 1
+R6
+R7
+Xdds_button_controlled_tsb_sv_unit
+R0
+R8
+VcO0_10l@dfL1GCb]`mZjC0
+r1
+!s85 0
+31
+!i10b 1
+!s100 @S>9UJZM0>ON>NE>OkJ[[0
+IcO0_10l@dfL1GCb]`mZjC0
+!i103 1
+S1
+R3
+R9
+R10
+R11
+L0 2
+R4
+R5
+R12
+R13
+!i113 1
+R6
+R7
+vdds_test_1
+R0
+R1
+!i10b 1
+!s100 E=i[dlhEfjcf?;1^2=JKd3
+Il<Yj@6oX=bN^8HKF^^O8V2
+R2
+Z14 !s105 dds_test_1_sv_unit
+S1
+R3
+Z15 w1750858749
+Z16 8W:/MASTER_1/SID/ProyectoFinal/src/dds_test_1.sv
+Z17 FW:/MASTER_1/SID/ProyectoFinal/src/dds_test_1.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+Z18 !s107 W:/MASTER_1/SID/ProyectoFinal/src/dds_test_1.sv|
+Z19 !s90 -reportprogress|300|-work|work|-sv|-stats=none|W:/MASTER_1/SID/ProyectoFinal/src/dds_test_1.sv|
+!i113 1
+R6
+R7
+vdds_test_rom
+R0
+R1
+!i10b 1
+!s100 9[CBd9VMB=H2_VzE_M6lg1
+IY1]g61Zj0PUlSPMm5WM@T1
+R2
+R14
+S1
+R3
+R15
+R16
+R17
+L0 171
+R4
+r1
+!s85 0
+31
+R5
+R18
+R19
+!i113 1
+R6
+R7
+Xdds_test_tsb_pkg
+R0
+R1
+!i10b 1
+!s100 UP77j]nOCod]a2gXnCWJQ0
+IM2dBL8B3[KBj7kGS^KNPa2
+VM2dBL8B3[KBj7kGS^KNPa2
+S1
+R3
+w1750859742
+8W:/MASTER_1/SID/ProyectoFinal/tsb/dds_test_tsb_pkg.sv
+FW:/MASTER_1/SID/ProyectoFinal/tsb/dds_test_tsb_pkg.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 W:/MASTER_1/SID/ProyectoFinal/tsb/dds_test_tsb_pkg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|W:/MASTER_1/SID/ProyectoFinal/tsb/dds_test_tsb_pkg.sv|
+!i113 1
+R6
+R7
